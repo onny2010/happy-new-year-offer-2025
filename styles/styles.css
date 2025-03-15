@@ -50,14 +50,13 @@
   background-color: white;
   margin: 0;
   width: 1600px;
-  padding: 50px 20px;
+  padding: 50px;
   /* height: 100%; */
 }
 
 .section-container {
-  margin: 0;
   width: 1320px;
-  height: 600px;
+  padding: 30px;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -66,10 +65,11 @@
 
 /* Banner Section beginning from here */
 .banner {
+  height: 600px;
   background:
     linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
     url('../images/Banner\ Image.png');
-  background-size: contain;
+  background-size: cover;
   border-radius: 16px;
   display: flex;
 }
@@ -159,12 +159,14 @@
   background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
     url(../images/Vectorrr.png);
   background-size: cover;
-  /* Ensures the full image is always visible */
   background-position: center;
-  /* background-repeat: no-repeat; */
   border-radius: 16px;
   display: flex;
   padding: 67px 138px;
+}
+
+.midnight-banner .greetings {
+  text-align: left;
 }
 
 .midnight-banner .greetings .welcome {
@@ -173,8 +175,8 @@
   font-size: 64px;
   font-weight: 900;
   line-height: 88px;
-  letter-spacing: 11%;
-  text-align: left;
+  letter-spacing: 11px;
+  /* text-align: left; */
 }
 
 .midnight-banner .greetings .description {
@@ -184,15 +186,63 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0%;
-  text-align: left;
+  /* text-align: left; */
 }
 
-.midnight-banner .greetings .btn-primary{
+.midnight-banner .greetings .btn {
+  padding: 48px;
+}
+
+.midnight-banner .greetings .btn-primary {
+  text-decoration: none;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+/* venue-section start from here */
+.venue-section {
+  margin: auto;
+  height: 482px;
+  width: 1320px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+.venue-section .venue-banner{
+  padding: 80px 0;
+  margin: 50px 0;
+}
+.venue-section span {
+  color: red;
+}
+
+.venue-section .section-container h4 {
+  font-family: Inter;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.venue-section .section-container .btn-secondary {
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 0, 0);
+  padding: 16px 32px;
+  margin-top: 50px;
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0%; 
-  text-align: left;
+  letter-spacing: 0%;
+  text-align: center;
 }
