@@ -62,6 +62,39 @@
   text-align: center;
 }
 
+.primary-sub-title {
+  text-align: left;
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0%;
+}
+
+.primary-semi-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+
+.primary-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.primary-align {
+  text-align: left;
+}
+
 /* Banner Section beginning from here */
 .banner {
   height: 600px;
@@ -95,7 +128,7 @@
 
 /* Offer Section beginning from here*/
 
-.offer-section {
+#offer-section {
   position: relative;
   padding: 50px 0px 150px 0px;
   /* margin-bottom: 0; */
@@ -107,11 +140,11 @@
   text-align: center;
 }
 
-.offer-section .offer-title {
+#offer-section .offer-title {
   height: 306px;
 }
 
-.offer-section .offer-title .title {
+#offer-section .offer-title .title {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 88px;
@@ -121,7 +154,7 @@
   /* text-align: center; */
 }
 
-.offer-section .offer-title .sub-title {
+#offer-section .offer-title .sub-title {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 24px;
@@ -131,7 +164,7 @@
   /* text-align: center; */
 }
 
-.offer-section .offer-title .semi-title {
+#offer-section .offer-title .semi-title {
   color: rgb(7, 2, 17);
   font-family: Inter;
   font-size: 40px;
@@ -141,7 +174,7 @@
   /* text-align: center; */
 }
 
-.offer-section .section-container .offer-image {
+#offer-section .section-container .offer-image {
   position: relative;
   width: 802.9px;
   height: 500px;
@@ -204,7 +237,7 @@
 }
 
 /* venue-section start from here */
-.venue-section {
+#venue-section {
   margin: auto;
   height: 482px;
   width: 1320px;
@@ -212,16 +245,16 @@
   background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
 
-.venue-section .venue-banner {
+#venue-section .venue-banner {
   padding: 80px 0;
   margin-top: 120px;
 }
 
-.venue-section .venue-span {
+#venue-section .venue-span {
   color: red;
 }
 
-.venue-section .section-container h4 {
+#venue-section .section-container h4 {
   font-family: Inter;
   margin: 0;
   font-size: 32px;
@@ -234,7 +267,7 @@
   text-transform: capitalize;
 }
 
-.venue-section .section-container .btn-secondary {
+#venue-section .section-container .btn-secondary {
   border-radius: 8px;
   border: none;
   background: rgb(255, 0, 0);
@@ -250,44 +283,13 @@
 }
 
 /* Party section start from here */
-.party-section .party-banner {
+#party-section .party-banner {
   display: flex;
   margin-top: 120px;
 }
 
 .party-banner .party-child {
   width: 33.33%;
-}
-
-.party-sub-title {
-  text-align: left;
-  color: rgb(255, 0, 0);
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 10px;
-  letter-spacing: 0%;
-}
-
-.party-semi-title {
-  color: rgb(7, 2, 17);
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0%;
-  text-align: left;
-  text-transform: capitalize;
-}
-
-.party-description {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 
 .party-child .party-img {
@@ -318,14 +320,14 @@
 
 /* Holidays section start from here */
 
-.holiday-section .holiday-titles {
+#holiday-section .holiday-titles {
   width: 1068px;
   height: 260px;
   padding: 100px 150px;
   margin: auto;
 }
 
-.holiday-section .holiday-titles .holiday-sub-title {
+#holiday-section .holiday-titles .holiday-sub-title {
   color: rgb(7, 2, 17);
   font-family: Inter;
   font-size: 24px;
@@ -357,15 +359,14 @@
   overflow: auto;
 }
 
-.holiday-section .holiday-images {
+#holiday-section .holiday-images {
   width: 1320px;
   height: 700.07px;
-  /* margin-top: 20px; */
   margin: auto;
   position: relative;
 }
 
-.holiday-section .holiday-images .holiday-img-box {
+#holiday-section .holiday-images .holiday-img-box {
   position: absolute;
   width: 674.82px;
   height: 577.96px;
@@ -376,22 +377,147 @@
   z-index: 1;
 }
 
-.holiday-section .holiday-images .holiday-img-discount {
+#holiday-section .holiday-images .holiday-img-discount {
   position: absolute;
   width: 305.69px;
   height: 305.69px;
   left: 950px;
   right: -99.69px;
   top: 50px;
-  /* bottom: -3321.62px; */
 }
 
-.holiday-section .holiday-images .holiday-img-bottom {
+#holiday-section .holiday-images .holiday-img-bottom {
   position: absolute;
   width: 1320px;
   height: 229px;
   left: 0px;
   right: -140px;
   top: 390px;
-  /* bottom: -3924.93px; */
+}
+
+/* Card-section start from here */
+#card-section .cards-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  /* Adjust spacing between images */
+  justify-items: center;
+  margin: auto;
+}
+
+#card-section img {
+  width: 424px;
+  height: 450px;
+}
+
+/* Newsteller section start from here */
+#newsteller-section .newsteller-bg {
+  background-color: #FF00000D;
+  padding: 80px 0;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#newsteller-section .subscription .primary-p-width {
+  padding: 0 210px 40px 210px;
+}
+
+#newsteller-section .subscription .form {
+  align-items: center;
+}
+
+#newsteller-section .subscription .submition-field {
+  width: 648px;
+  height: 72px;
+  display: flex;
+  padding: 0px 336px;
+}
+
+#newsteller-section .subscription .submition-field .unique-btn {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  border: none;
+}
+
+#newsteller-section .subscription .submition-field .unique-input {
+  width: 438px;
+  height: 70px;
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+
+
+#newsteller-section .subscription .submition-field input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  padding-left: 25px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  /* text-align: center; */
+}
+
+#newsteller-section .subscription .submition-field input[value] {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Footer section start from here */
+#footer-section {
+  background-color: #070211;
+}
+
+.connection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 275px 0 140px;
+}
+
+.common-p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.contact a{
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.contact-icon{
+  border: 0.5px dashed white;
+  width: 15px;
+}
+
+.footer-icons {
+  text-align: center;
+}
+.footer-icons hr{
+  width: 1320px;
+  color: rgba(255, 255, 255, 0.15);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-icon{
+  margin: 0px 24px;
+  border: 1px dashed #FFFFFF;
+}
+
+.common-des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px 120px 140px;
 }
